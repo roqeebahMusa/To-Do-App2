@@ -1,0 +1,163 @@
+.App {
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(rgba(96, 213, 61, 0.9), rgba(0, 149, 223, 0.8));
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+.App-Wrap {
+    width:60%;
+    height:70vh;
+    /* background-color:purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1 {
+    width:70%;
+    height:50px;
+    background-color:rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+}
+.Input {
+    width:78%;
+    height:40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check {
+    width:100px;
+    height:40px;
+    /* background-color:fuchsia; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.New-List {
+    width:80%;
+    border: none;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+}
+.add {
+    height: 35px;
+    width: 35px;
+    background-color:rgb(58, 58, 58);
+    border: none;
+    color: white;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:7px;
+}
+.Card-Holder {
+    width:70%;
+    height:320px;
+    background-color:rgba(255, 255, 255, 0.4);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Card-Holder2 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo {
+    width:300px;
+    height:40px;
+    /* background-color: hotpink; */
+    margin-right:140px;
+    display: flex;
+    flex-direction: column;
+ justify-content: space-around;
+}
+.todo2 {
+    width:300px;
+    height:30px;
+    /* background-color: hotpink; */
+    margin-right:140px;
+    display: flex;
+    flex-direction: column;
+ justify-content: space-around;
+ margin-bottom:25px;
+}
+
+.input-holder {
+    width:80%;
+    height:200px;
+    /* background-color:chartreuse; */
+}
+.Input1 {
+    width:100%;
+    height:50px;
+    background-color:rgb(59, 59, 239);
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Title-holder {
+    width:120px;
+    height:30px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.Title-holder2 {
+    width:120px;
+    height:30px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.Input2 {
+    width:100%;
+    height:50px;
+    background-color:lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Input3 {
+    width:100%;
+    height:50px;
+    background-color:lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Input4 {
+    width:100%;
+    height:50px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scrollBar {
+    overflow-y: auto;
+    max-height:150px;
+    min-height: 150px;
+}
+.Cards-Wrap {
+    display: flex;
+    justify-content: space-around;
+}
